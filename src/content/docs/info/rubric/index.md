@@ -8,16 +8,16 @@ sidebar:
 
 |Aspect|Species Information|
 |---|---|
-|Species Common Name| |
+|Species Common Name| Norway Rat|
 |Species Scientific Name| *Rattus Norvegicus*|
 |Scientific Classification (DKPCOFGS)| Eukarya ⨠ Animalia ⨠ Chordata ⨠ Vertebrata ⨠ Rodentia ⨠ Muridae ⨠ *Rattus* ⨠ *norvegicus*|
-|Picture of Species| |
-|Vertebrate or invertebrate?| |
-|Body Symmetry Type?| |
-|Body Cavity Type?| |
-|Endotherm or Ectotherm?| |
-|Interesting fact| |
-|Sexual or asexual reproduction| |
+|Picture of Species| Provided [here]()|
+|Vertebrate or invertebrate?| Vertebrate (***Vertebrata***)|
+|Body Symmetry Type?| Bilateral|
+|Body Cavity Type?| Acoelomate|
+|Endotherm or Ectotherm?| Endotherm|
+|Interesting fact| They reproduce so much, that Humans have failed to deal any **real** damage to their species' populations!|
+|Sexual or asexual reproduction| Sexual|
 |Type of Heterotroph - How they get their Energy| External Heterotroph|
 |Special Adaptation for species and how it is useful| |
 |Habitat - Location/Climate where they live| [Teperate, tropical, and Terrestrial Locations](https://animaldiversity.org/accounts/Rattus_norvegicus/) |
