@@ -14,10 +14,10 @@ sidebar:
 |Class|Vertebrata|
 |Order|Rodentia|
 |Family|Muridae|
-|genus|Rattus|
+|genus|*Rattus*|
 |Species|*norvegicus*|
 ### Full Classification 
-Eukarya Animalia Chordata Vertebrata Rodentia Muridae Rattus *norvegicus*
+Eukarya Animalia Chordata Vertebrata Rodentia Muridae *Rattus norvegicus*
 ### Binomial Nomenclature
 Rattus *norvegicus*
 ### Shorthand Binomial Nomenclature

@@ -1,32 +1,43 @@
 ---
 title: Rattus Norvegicus
-description: Get started building your docs site with Starlight.
-
+description: The Norwegian Brown Rat
+template: splash
 sidebar:
   label: Home
-  order: 1
+  order: 0
 hero:
   tagline: Rattus Norvegicus
   actions:
     - text: Check out The Sources!
       link: /sources/
-      icon: right-arrow
+      icon: right-caret
     - text: Read The Direct Answer to The Rubric (No Elaboration)
-      link: /info/rubric/
+      link: /rubric/
       icon: external
       variant: minimal
+    - text: Start your Plague-Ridden Quest!
+      link: /info/base/
+      icon: right-arrow
+      variant: secondary
+      hover: highlight
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
 
 ## *Stagger* of Contents
 
 <CardGrid stagger>
 	<Card title="Species Taxonomy and Naming" icon="translate">Chart, Full, Binomial Nomenclature, and Shorthand Nomenclature.</Card>
-  <Card title="Acclimated Climate" icon="star">The Climate the Norwegian ~~Ratatoullie~~ sorry, ***rats*** are used to.</Card>
+  <Card title="Acclimated Climate" icon="star">The Climate the Norwegian ~~Ratatoullie~~ ***rats*** are used to.</Card>
   <Card title="Conservational Status" icon="information">Where are these Rodents on the Ecological Conservation Status Scale?</Card>
+  <Card title="Images of these Pesky Rats" icon="seti:image" >
+    <LinkCard title="Norway Brown Rats" href="/assets/img/" description="Image of a Norwegian Rat Climbing Up a Wall" />
+  </Card>
 </CardGrid>
 
 > Did You Get the Joke?  
 > The code used for the CardGrid was:  
 > `<CardGrid stagger>` 
+
+Picture icon by Icons8

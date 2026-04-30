@@ -11,12 +11,24 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Information',
-					autogenerate: { directory: 'info' },
+					collapsed: false,
+					autogenerate: { directory: 'info'},
+				},
+				{
+					label: 'Project — Information',
+					collapsed: true,
+					autogenerate: {directory: 'rubric'}
 				},
 				{
 					label: 'Sources',
+					collapsed: true,
 					autogenerate: {directory: 'sources'}
 				},
+				{
+					label: 'Citations',
+					collapsed: true,
+					autogenerate: {directory: 'refs'}
+				}
 			],
 		}),
 	],
