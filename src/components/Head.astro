@@ -1,0 +1,15 @@
+---
+// Import the standard Starlight props type -> Not Needed
+// import type { Props } from '@astrojs/starlight/props';
+
+// Import the default Head component to keep existing metadata/styles
+import DefaultHead from '@astrojs/starlight/components/Head.astro';
+
+// Import custom loader component
+import PageLoader from './PageLoader.astro';
+---
+
+<!-- 1. Render all standard Starlight head tags -->
+<DefaultHead {...Astro.props} />
+<!-- 2. Inject your large activity indicator -->
+<PageLoader />

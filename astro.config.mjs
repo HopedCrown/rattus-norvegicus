@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Rattus Norvegicus',
+			components: {
+			  Head: './src/components/Head.astro',
+			},
 			social: [{ icon: 'github', label: 'My Github', href: 'https://github.com/HopedCrown' }],
 			sidebar: [
 				{
