@@ -1,0 +1,63 @@
+
+> rattus-norvegicus@0.0.1 start
+> astro dev --host 127.0.0.1
+
+[vite] connected.
+[2m23:33:33[22m [34m[types][39m Generated [2m2ms[22m
+[vite] connected.
+[2m23:33:34[22m [34m[content][39m Syncing content
+[2m23:33:34[22m [34m[content][39m Astro config changed
+[2m23:33:34[22m [34m[content][39m Clearing content store
+[2m23:33:34[22m [34m[content][39m Synced content
+[42m[1m astro [22m[49m [32mv6.1.8[39m [2mready in[22m 3783 [2mms[22m
+[2m┃[22m Local    [36mhttp://127.0.0.1:4321/[39m
+[2m23:33:34[22m [32mwatching for file changes...[39m
+[2m23:33:47[22m [34m[200][39m / [2m604ms[22m
+[2m23:35:01[22m [34m[200][39m /info/base/ [2m59ms[22m
+[2m23:35:02[22m [34m[200][39m / [2m33ms[22m
+[2m23:35:04[22m [34m[200][39m /info/binome/ [2m47ms[22m
+[2m23:36:21[22m [34m[200][39m / [2m81ms[22m
+[2m23:36:21[22m [34m[200][39m /info/base/ [2m40ms[22m
+[2m23:36:58[22m [34m[starlight-docs-loader][39m Reloaded data from [32mindex.mdx[39m
+[2m23:36:58[22m [34m[starlight-docs-loader][39m Reloaded data from [32mrefs/index.mdx[39m
+[2m23:36:58[22m [34m[200][39m /info/base/ [2m301ms[22m
+[2m23:36:58[22m [34m[starlight-docs-loader][39m Reloaded data from [32massets/index.mdx[39m
+[2m23:36:58[22m [34m[watch][39m /src/components/PageLoader.astro?astro&type=style&index=0&lang.css
+[2m23:36:58[22m [34m[200][39m / [2m551ms[22m
+[2m23:37:00[22m [34m[200][39m / [2m201ms[22m
+[2m23:41:44[22m [34m[200][39m / [2m114ms[22m
+[2m23:42:20[22m [34m[200][39m / [2m31ms[22m
+[2m23:42:30[22m [34m[200][39m / [2m24ms[22m
+[2m23:42:42[22m [34m[200][39m /sources/ [2m71ms[22m
+[2m23:42:48[22m [34m[200][39m /rubric/ [2m90ms[22m
+[2m23:42:50[22m [34m[200][39m /info/base/ [2m41ms[22m
+[2m23:43:56[22m [34m[200][39m /sources/ [2m37ms[22m
+[2m23:45:45[22m [34m[starlight-docs-loader][39m Reloaded data from [32mrefs/index.mdx[39m
+[2m23:45:45[22m [34m[starlight-docs-loader][39m Reloaded data from [32mrefs/index.mdx[39m
+[2m23:45:46[22m [34m[200][39m /sources/ [2m166ms[22m
+[2m23:49:06[22m [34m[starlight-docs-loader][39m Reloaded data from [32mrefs/index.mdx[39m
+[2m23:49:07[22m [34m[200][39m /sources/ [2m73ms[22m
+[2m23:49:08[22m [34m[starlight-docs-loader][39m Reloaded data from [32mrubric/index.mdx[39m
+[2m23:49:09[22m [34m[200][39m /sources/ [2m55ms[22m
+[2m23:49:28[22m [34m[starlight-docs-loader][39m Reloaded data from [32mrefs/index.mdx[39m
+[2m23:49:29[22m [34m[200][39m /sources/ [2m75ms[22m
+[2m23:49:43[22m [34m[200][39m /sources/ [2m61ms[22m
+[2m23:49:51[22m [34m[200][39m /sources/ [2m25ms[22m
+[2m23:49:52[22m [34m[200][39m / [2m46ms[22m
+[2m23:49:52[22m [34m[200][39m / [2m23ms[22m
+[2m23:49:53[22m [34m[200][39m /sources/ [2m33ms[22m
+[2m23:49:54[22m [34m[200][39m /info/base/ [2m30ms[22m
+[2m23:49:54[22m [34m[200][39m /info/base/ [2m23ms[22m
+[2m23:49:55[22m [34m[200][39m /info/diet/ [2m32ms[22m
+[2m23:49:56[22m [34m[200][39m /info/binome/ [2m34ms[22m
+[2m23:51:08[22m [34m[starlight-docs-loader][39m Reloaded data from [32mindex.mdx[39m
+[2m23:51:08[22m [34m[200][39m /info/base/ [2m46ms[22m
+[2m23:51:09[22m [34m[200][39m /info/base/ [2m18ms[22m
+[2m23:51:25[22m [34m[starlight-docs-loader][39m Reloaded data from [32mindex.mdx[39m
+[2m23:51:27[22m [34m[200][39m /info/base/ [2m42ms[22m
+[2m23:58:24[22m [34m[starlight-docs-loader][39m Reloaded data from [32mindex.mdx[39m
+[2m23:58:24[22m [34m[200][39m /info/base/ [2m75ms[22m
+[2m23:58:25[22m [34m[200][39m /info/base/ [2m35ms[22m
+[2m23:59:22[22m [34m[starlight-docs-loader][39m Reloaded data from [32mindex.mdx[39m
+[2m23:59:22[22m [34m[200][39m /info/base/ [2m51ms[22m
+[2m23:59:23[22m [34m[200][39m /info/base/ [2m17ms[22m

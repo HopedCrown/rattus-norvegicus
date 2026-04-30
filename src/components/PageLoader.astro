@@ -1,12 +1,7 @@
 ---
 /* src/components/PageLoader.astro */
 ---
-<div id="full-screen-loader" class="loader-overlay hidden">
-    <div class="huge-spinner"></div>
-    <p>Loading Documentation...</p>
-  </div>
-  
-  <style>
+<style is:global>
     .loader-overlay {
       position: fixed;
       inset: 0;
@@ -39,25 +34,41 @@
     @keyframes spin {
       to { transform: rotate(360deg); }
     }
-  </style>
+</style>
   
   <script is:inline>
-    const loader = document.getElementById('full-screen-loader');
+    function createLoader() {
+      const loader = document.createElement('div');
+      loader.id = 'full-screen-loader';
+      loader.className = 'loader-overlay hidden';
+
+      const spinner = document.createElement('div');
+      spinner.className = 'huge-spinner';
+
+      const label = document.createElement('p');
+      label.textContent = 'Loading Documentation...';
+
+      loader.append(spinner, label);
+      document.body.prepend(loader);
+      return loader;
+    }
+
+    const getLoader = () => document.getElementById('full-screen-loader') || createLoader();
   
     // Show loader when leaving the page (clicking a link)
     window.addEventListener('beforeunload', () => {
-      loader?.classList.remove('hidden');
+      getLoader().classList.remove('hidden');
     });
   
     // Ensure loader is hidden when the new page is ready
     window.addEventListener('load', () => {
-      loader?.classList.add('hidden');
+      getLoader().classList.add('hidden');
     });
   
     // Safety check: hide loader if the user uses the "Back" button
     window.addEventListener('pageshow', (event) => {
       if (event.persisted) {
-        loader?.classList.add('hidden');
+        getLoader().classList.add('hidden');
       }
     });
   </script>
